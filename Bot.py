@@ -1,8 +1,9 @@
 import telebot
 import requests
 import datetime
+import tok
 from telebot.types import Message
-from tok import TOKEN
+from tok import *
 from bs4 import BeautifulSoup, element
 
 

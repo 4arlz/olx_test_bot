@@ -9,6 +9,9 @@ verify_ssl = true
 pytelegrambotapi = "*"
 beautifulsoup4 = "*"
 requests = "*"
+bs4 = "*"
+flask = "*"
+bs = "*"
 
 [requires]
 python_version = "3.8"
