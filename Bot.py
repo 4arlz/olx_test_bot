@@ -2,7 +2,7 @@ import telebot
 import requests
 import datetime
 from telebot.types import Message
-
+from tok import TOKEN
 from bs4 import BeautifulSoup, element
 
 
@@ -31,7 +31,7 @@ def main(sity='list', poisk=None):
     return url_p                
 
 City = 'list'
-TOKEN = ''
+#TOKEN = ''
 #get_text(str(main(poisk=str(message)))
 bot = telebot.TeleBot(TOKEN)
 @bot.message_handler(commands=['сhangeсity', 'start'])
