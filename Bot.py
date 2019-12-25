@@ -31,7 +31,7 @@ def main(sity='list', poisk=None):
     return url_p                
 
 City = 'list'
-TOKEN = '917514249:AAGaLDcCI1t6Vd24VmePaJ4x2o3nBszgSk8'
+TOKEN = ''
 #get_text(str(main(poisk=str(message)))
 bot = telebot.TeleBot(TOKEN)
 @bot.message_handler(commands=['сhangeсity', 'start'])
